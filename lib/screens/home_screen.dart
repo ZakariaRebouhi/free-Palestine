@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:free_palastine/screens/get_freedom_screen.dart';
+import 'package:free_palastine/screens/take_freedom_screen.dart';
 import 'package:free_palastine/screens/request_freedom_screen.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -62,7 +62,7 @@ class HomeScreen extends StatelessWidget {
                   "assets/images/gun.png",
                   width: 50,
                 ),
-                label: const Text("Get your freedom"),
+                label: const Text("Take your freedom"),
               ),
               IconButton(
                   onPressed: () {
